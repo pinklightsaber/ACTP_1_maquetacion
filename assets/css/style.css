@@ -1,4 +1,44 @@
+h1 {
+	color: #FFFFFF;
+	font-size: 4em;
+}
+
+	/*Navbar*/
+
 .navbar_tiatomate {
 	background-color: #FFFFFF;
 	color: 686963 ;
+	margin-bottom: 0;
+}
+.navbar-brand img {
+	max-width: 120px;
+}
+
+	/*Header TiaTomate*/
+.header_tiatomate {
+	background-color: #e56353;
+	text-align: center;
+	padding: 50px;
+}
+
+@media only screen and (max-width : 767px) {
+
+	.header_tiatomate {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: #e56353
+	}
+}
+
+	/*Historia*/
+
+.historia_tiatomate {
+
+}
+
+.historia_background {
+	background-image: url("../img/img-history.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
 }
