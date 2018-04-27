@@ -1,4 +1,10 @@
 
+
+body {
+	margin: 0
+}
+
+
 li a {
 	list-style-type: none;
 	font-family: 'Open Sans', sans-serif;
@@ -63,14 +69,19 @@ h3  {
 		background-color: #e56353
 	}
 
-}
+	.footer_tiatomate img {
+	visibility: hidden;
+	
+	}
+
+}	
 
 	/*Historia*/
 
 .historia_tiatomate {
 	background-color: #707070;
 	height: 400px;
-	padding: 40px 10px 20px 40px;
+	padding: 40px 40px 40px 40px;
 	
 }
 
@@ -94,7 +105,7 @@ h3  {
 .features_tiatomate {
 	background-color: #FAFAFA;
 	height: 400px;
-	padding: 40px 30px 20px 40px;
+	padding: 40px 40px 40px 40px;
 }
 
 .features_background {
