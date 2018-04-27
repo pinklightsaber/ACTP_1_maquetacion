@@ -3,7 +3,27 @@ h1 {
 	font-size: 4em;
 }
 
-	/*Navbar*/
+h2 {
+	color: #FFFFFF;
+}
+
+p  {
+	color: #686963
+}
+h3  {
+	color: #686963
+}
+
+.button_ventas {
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	padding: 2rem 6rem;
+	color: #686963;
+}
+
+
+
+/*Navbar*/
 
 .navbar_tiatomate {
 	background-color: #FFFFFF;
@@ -28,12 +48,20 @@ h1 {
 		padding-bottom: 50px;
 		background-color: #e56353
 	}
+
 }
 
 	/*Historia*/
 
 .historia_tiatomate {
+	background-color: #707070;
+}
 
+.historia_tiatomate h3 {
+	color: #FFFFFF;
+}
+.historia_tiatomate p {
+	color: #FFFFFF;
 }
 
 .historia_background {
@@ -41,4 +69,40 @@ h1 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 300px;
+}
+
+.features_tiatomate {
+	background-color: #FAFAFA;
+}
+
+.features_background {
+	background-image: url("../img/our-tomatoes.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+.jumbotron {
+	background-color: #e56353;
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.team_tiatomate {
+	background-color: #FAFAFA;
+	padding: 4%;
+}
+
+.team_tiatomate img {
+	width: 300px;
+	height: 300px;
+	margin: 2%;
+}
+
+/*Footer*/
+
+.footer_tiatomate {
+	color: #FFFFFF;
+	background-color: #686963;
 }
