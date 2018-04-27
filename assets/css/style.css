@@ -1,10 +1,19 @@
+
+li a {
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #FAFAFA;
+}
+
 h1 {
 	color: #FFFFFF;
 	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
 }
 
 h2 {
 	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p  {
@@ -17,8 +26,10 @@ h3  {
 .button_ventas {
 	background-color: #FFFFFF;
 	border-radius: 30px;
-	padding: 2rem 6rem;
+	padding: 2rem 5rem;
 	color: #686963;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
 }
 
 
@@ -29,6 +40,8 @@ h3  {
 	background-color: #FFFFFF;
 	color: 686963 ;
 	margin-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+
 }
 .navbar-brand img {
 	max-width: 120px;
@@ -39,6 +52,7 @@ h3  {
 	background-color: #e56353;
 	text-align: center;
 	padding: 50px;
+
 }
 
 @media only screen and (max-width : 767px) {
@@ -55,6 +69,9 @@ h3  {
 
 .historia_tiatomate {
 	background-color: #707070;
+	height: 400px;
+	padding: 40px 10px 20px 40px;
+	
 }
 
 .historia_tiatomate h3 {
@@ -68,19 +85,27 @@ h3  {
 	background-image: url("../img/img-history.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 300px;
+	background-color: #707070;
+	height: 400px;
 }
+
+	/* Feautures */
 
 .features_tiatomate {
 	background-color: #FAFAFA;
+	height: 400px;
+	padding: 40px 30px 20px 40px;
 }
 
 .features_background {
 	background-image: url("../img/our-tomatoes.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 300px;
+	height: 400px;
+
 }
+
+/*Nosotros y compras*/
 
 .jumbotron {
 	background-color: #e56353;
@@ -106,3 +131,21 @@ h3  {
 	color: #FFFFFF;
 	background-color: #686963;
 }
+
+.footer_icon {
+	font-size: 3em;
+	background-color: #FFFFFF;
+	border-radius: 50px;
+	padding: 0.8rem 0.8rem;
+	color: #686963;
+}
+
+.footer_div {
+
+	padding: 30px;
+	text-align: center;
+}
+
+
+	
+	
